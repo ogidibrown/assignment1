@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.main {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background:crimson;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.05;
+}
+
+.links {
+    display:flex;
+}
+.links li{
+    list-style: none;
+    margin-right: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-content: flex-end;
+
+}
+.olink li{
+    list-style-type: none;
+}
+.textstyle li{
+    list-style-type: lower-latin;
+}
+.button li{
+    align-items: left;
+}
+
+header {
+    height:120px;
+    background-color: lavender;
+}
+.content {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    background-color: gray;
+    font-size: large;
+    font-style: italic;
+    flex: 0.4;
+    
+}
+.applynow{
+    height: 100;
+}
+
+.content button{
+    height: 50px;
+    width: 200px;
+}
