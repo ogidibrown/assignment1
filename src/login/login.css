@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.maincontainer{
+    background-image: url('images/img3.jpg');
+    height: 100vh;
+    background-color: saddlebrown;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* .navbar{
+    box-sizing: border-box;
+} */
+form{
+    background-color: black;
+    display:flex;
+    height: 480px;
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topcontainer{
+    /* background-color: pink; */
+    display:flex;
+    flex: 0.1;
+    /* color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sc{
+    color: saddlebrown;
+}
+
+.hc{
+    color: slateblue;
+}
+.downcontainer{
+    /* background-color: chocolate; */
+    display:flex;
+    flex-direction: column;
+    flex: 0.9;
+}
+.formpicture{
+    background-image: url('images/body4.jfif');
+    /* background-color: green; */
+    display:flex;
+    flex: 0.4;
+    padding-bottom: 80px;
+    
+}
+.forminputs{
+    /* background-color:yellow; */
+    display:flex;
+    flex: 1.8;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border:none; */
+} 
+
+label{
+    color: peru;
+}
+
+
+.formbutton{
+    /* background-color:violet; */
+    /* flex:0.15; */
+
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+footer{
+    flex:0.03;
+    color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:300px;
+    height:40px;
+    border-radius: 5px;
+    background-color: blue;
+    margin-top: 8px;
+    
+}
